@@ -1,5 +1,8 @@
 #!/bin/sh
 
+content=$(ls -la)
+echo "bebebe=$content" >> $GITHUB_OUTPUT
+
 $(GITHUB_WORKSPACE)/gitleaks/gitleaks detect >> $GITHUB_STEP_SUMMARY
 
 time=$(date)
