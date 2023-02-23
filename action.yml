@@ -1,0 +1,8 @@
+name: 'Plumber'
+description: 'Scan your code for leaks'
+outputs:
+  time: # id of output
+    description: 'The time scanned'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
