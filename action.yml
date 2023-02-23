@@ -1,4 +1,4 @@
-name: 'Plumber'
+name: 'Plumber Check'
 description: 'Scan your code for leaks'
 outputs:
   time: # id of output
